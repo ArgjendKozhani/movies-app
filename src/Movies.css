@@ -1,4 +1,3 @@
-/* ── Container ─────────────────────────────────────── */
 .movies-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -14,7 +13,6 @@
   text-align: center;
 }
 
-/* ── Search bar ─────────────────────────────────────── */
 .search-bar {
   display: flex;
   justify-content: center;
@@ -76,14 +74,12 @@
   background: #3e3e62 !important;
 }
 
-/* ── Movie grid ─────────────────────────────────────── */
 .movie-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 20px;
 }
 
-/* ── Movie card ─────────────────────────────────────── */
 .movie-card {
   position: relative;
   background: #1a1a2e;
@@ -139,7 +135,6 @@
   font-size: 0.75rem;
 }
 
-/* ── Favourite heart button ────────────────────────────────────────────────── */
 .fav-btn {
   position: absolute;
   top: 8px;
@@ -170,7 +165,6 @@
   color: #e50914;
 }
 
-/* ── Overview overlay (shown on hover) ──────────────── */
 .movie-overlay {
   position: absolute;
   inset: 0;
@@ -200,7 +194,6 @@
   overflow: hidden;
 }
 
-/* ── Loading spinner ────────────────────────────────── */
 .loading-indicator {
   display: flex;
   align-items: center;
@@ -227,7 +220,6 @@
   }
 }
 
-/* ── States ─────────────────────────────────────────── */
 .error-message {
   background: #2a0a0a;
   color: #ff6b6b;
@@ -247,7 +239,6 @@
   text-align: center;
 }
 
-/* ── Load more ──────────────────────────────────────── */
 .load-more {
   display: block;
   margin: 44px auto 20px;
@@ -270,7 +261,6 @@
   box-shadow: 0 6px 22px rgba(229, 9, 20, 0.55);
 }
 
-/* ── Responsive ─────────────────────────────────────── */
 @media (max-width: 600px) {
   .search-bar input {
     width: 100%;

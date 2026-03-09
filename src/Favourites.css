@@ -1,6 +1,3 @@
-/* Inherits .movies-container, .movie-list, .movie-card, .movie-info, etc. from Movies.css */
-/* Only Favourites-specific styles live here */
-
 .fav-empty {
   display: flex;
   flex-direction: column;
